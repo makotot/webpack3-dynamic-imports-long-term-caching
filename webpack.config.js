@@ -16,7 +16,7 @@ module.exports = {
     vendor: Object.keys(package.dependencies)
   },
   output: {
-    publicPath: '/',
+    publicPath: './',
     path: __dirname + '/dist',
     chunkFilename: '[name].[chunkhash].js',
     filename: '[name].[chunkhash].js'
