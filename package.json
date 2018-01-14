@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "dev-server": "webpack-dev-server",
-    "deploy": "npm run start && gh-pages -d ./",
+    "deploy": "npm run start && rm -rf node_modules/gh-pages/.cache && gh-pages -d ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Geoff Miller",
