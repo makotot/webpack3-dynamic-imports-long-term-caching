@@ -34,7 +34,7 @@
 /******/
 /******/ 	// objects to store loaded and loading chunks
 /******/ 	var installedChunks = {
-/******/ 		5: 0
+/******/ 		6: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -91,7 +91,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"pageTwo","1":"pageOne","2":"home","3":"vendor","4":"app"}[chunkId]||chunkId) + "." + {"0":"2f754e8c25c3757e231b","1":"5b1e993523bbe135ca35","2":"9cd70be211e936bc9f89","3":"87af43fdf2d36a728851","4":"659bb0bbf99d72f4bd71"}[chunkId] + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"pageTwo","1":"pageOne","2":"home","3":"vendor","4":"webpack3-dynamic-imports-long-term-caching/app","5":"webpack3-dynamic-imports-long-term-caching/vendor"}[chunkId]||chunkId) + "." + {"0":"2f754e8c25c3757e231b","1":"5b1e993523bbe135ca35","2":"9cd70be211e936bc9f89","3":"104f161336e638f40c20","4":"b01ea71b8a1cc54863ee","5":"0dc8bb5d2cfba2c06b2c"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
@@ -141,7 +141,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/webpack3-dynamic-imports-long-term-caching/";
+/******/ 	__webpack_require__.p = "/webpack3-dynamic-imports-long-term-caching";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
